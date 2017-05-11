@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8a8d4429af684bf0a7629d8981f7b566" Name="Diagram1">
+        <EntityTypeShape EntityType="MorderModel.Address" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Basket_Food" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Comment_State" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Customer" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Enterprise" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Enterprise_Comments" Width="1.5" PointX="9.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Enterprise_Food" Width="1.5" PointX="10.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Enterprise_Type" Width="1.5" PointX="7.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Food" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Food_State" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Order" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Order_State" Width="1.5" PointX="5.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Orderline" Width="1.5" PointX="9.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Payment" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.User_of_Restaurant" Width="1.5" PointX="7.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MorderModel.Order_Type" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="MorderModel.FK_Order_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Order_Comment_State" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Enterprise_Food_Enterprise" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Enterprise_Type_Enterprise" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Order_Enterprise" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_User_of_Restaurant_Enterprise" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Enterprise_Comments_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Enterprise_Food_Food" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Food_Food_State" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Orderline_Food" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Order_Order_State" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Order_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.FK_Orderline_Order1" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.Customer_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.Enterprise_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="MorderModel.Favorite_Enterprise" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
